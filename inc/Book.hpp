@@ -69,11 +69,9 @@ class Book
     /**
      * @brief A constant function to check the if the book is borrowed or not
      * @param void No paramters are passed
-     * @return Return type is bool
-     *          If true , book is available to borrow
-     *          If false, book is not available
+     * @return Return type is void 
      */
-        bool bookAvailability(void) const;
+        void bookAvailability(void) const;
 
 };
 
