@@ -73,7 +73,7 @@ class Book
      *          If true , book is available to borrow
      *          If false, book is not available
      */
-        bool bookAvailabilty(void) const;
+        bool bookAvailability(void) const;
 
 };
 
