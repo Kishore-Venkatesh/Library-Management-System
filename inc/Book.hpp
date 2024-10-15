@@ -67,18 +67,13 @@ class Book
         void getDetails(void) const;
 
     /**
-     * @brief A constant function to set the if the book is borrowed
+     * @brief A constant function to check the if the book is borrowed or not
      * @param void No paramters are passed
-     * @return Return type is void 
+     * @return Return type is bool
+     *          If true , book is available to borrow
+     *          If false, book is not available
      */
-        void setBorrowed(void) const;
-
-    /**
-     * @brief A constant function to set the if the book is returned
-     * @param void No paramters are passed
-     * @return Return type is void 
-     */
-        void setReturned(void) const;
+        bool bookAvailabilty(void) const;
 
 };
 
